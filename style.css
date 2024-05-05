@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom : 1px solid #d1d1d1;
+}
+
+.leftNavbar{
+    display: flex;
+    gap: 30px;
+}
+
+.rightNavbar{
+    display: flex;
+    gap: 30px;
+}
+
+.rightNavbar input{
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 6px;
+    width: 280px;
+}
+
+.SectionTitle{
+    font-weight: 500;
+}
+
+/* CATEGORIES */
+
+#categories{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+/* SLIDESHOW */
+
+#slideshow{
+    height: 450px;
+    width: 100%;
+    border : 1px solid grey;
+}
+
+
+/* TOP CATEGORIES */
+
+#topCategoriesCaraousel{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.CategoriesBox{
+    height: 300px;
+    width: 32%;
+    border : 1px solid grey;
+}
+
+
+/* TRY BEFORE YOU BUY */
+
+#tryProducts{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.tryProduct{
+    height: 600px;
+    width: 25%;
+    border : 1px solid grey;
+}
+
+.prodImage{
+    height: 80%;
+    border : 1px solid grey;
+    position: relative;
+}
+
+#like{
+    position: absolute;
+    right: 0px;
+}
+
+
+/* ACTORS CAROUSEL */
+
+#ActorsCarousel{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.Actor{
+    height: 200px;
+    width: 30%;
+    border : 1px solid grey;
+}
+
+
+/* SELLING FAST */
+
+#SellingFastProds{
+    display: flex;
+    justify-content: space-around;  
+}
+
+.SellingProd{
+    height: 450px;
+    width: 22%;
+    border: 1px solid grey;
+}
+
+
+/* BRANDS TO KNOW */
+
+#BrandsToKnow{
+    background-color: #ffcada;
+}
+
+#BrandsToKnow h2{
+    text-align: center;
+    background-color: #ffcada;
+}
+
+#BrandsList{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Brand{
+    height: 170px;
+    width: 30%;
+    border: 2px solid white;
+    background-color: white;
+}
+
+
+/* FACILITIES */
+#Facilities{
+    background-color: #ffcada;  
+    margin-top: 40px;  
+}
+
+.FacilitySection{
+    text-align: center;
+}
+
+#FacilitiesList{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Facility{
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+    background-color: white;
+}
+
+
+/* SUPPORT MAIL */
+#supportMail{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding : 20px;
+}
+
+#supportMail h2{
+    text-align: center;
+}
+
+.MailSection{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.MailSection input{
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 6px;
+    width: 380px;
+    padding: 12px;
+}
+
+.MailSection button{
+    background-color: #9f9f9f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    width: 100px;
+}
+
+/* FOOTER */
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterTitle{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.Contactus{
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Aboutus{
+    width: 14%;
+}
+
+.CustomerCare{
+    width: 24%;
+}
+
+.FCategories{
+    width: 24%;
+}
