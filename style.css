@@ -9,6 +9,33 @@ body{
     font-family: sans-serif;
 }
 
+/* LOGIN PAGE */
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#loginSection{
+    width: 25%;
+}
+
+.loginTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#phonenumber{
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 6px;
+}
+
+/* LANDING PAGE */
+
 #navbar{
     display: flex;
     justify-content: space-between;
@@ -38,6 +65,10 @@ body{
 }
 
 /* CATEGORIES */
+.pageLink{
+    text-decoration: none;
+    color: black    ;
+}
 
 #categories{
     display: flex;
